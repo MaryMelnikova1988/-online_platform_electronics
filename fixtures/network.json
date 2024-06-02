@@ -1,0 +1,107 @@
+[
+  {
+    "model": "network.networkobject",
+    "pk": 1,
+    "fields": {
+      "type": "Retail network",
+      "level": "1",
+      "name": "ДНС Ритейл",
+      "email": "dns@sky.pro",
+      "country": "Россия",
+      "city": "Владивосток",
+      "street": "проспект 100 лет Владивостоку",
+      "house_number": "155",
+      "supplier": 4,
+      "debt_supplier": "0.00",
+      "date_create": "2024-06-02T07:04:57.894Z"
+    }
+  },
+  {
+    "model": "network.networkobject",
+    "pk": 2,
+    "fields": {
+      "type": "Retail network",
+      "level": "1",
+      "name": "М.Видео-Эльдорадо",
+      "email": "mvideo@sky.pro",
+      "country": "Россия",
+      "city": "Москва",
+      "street": "Красносельская Нижн",
+      "house_number": "40/12",
+      "supplier": 3,
+      "debt_supplier": "0.00",
+      "date_create": "2024-06-02T07:13:43.626Z"
+    }
+  },
+  {
+    "model": "network.networkobject",
+    "pk": 3,
+    "fields": {
+      "type": "Factory",
+      "level": "0",
+      "name": "Xiaomi",
+      "email": "Xiaomi@sky.pro",
+      "country": "Китай",
+      "city": "Пекин",
+      "street": "Floor 13, II Rainbow City of China Resources",
+      "house_number": "68",
+      "supplier": null,
+      "debt_supplier": "0.00",
+      "date_create": "2024-06-02T07:18:39.008Z"
+    }
+  },
+  {
+    "model": "network.networkobject",
+    "pk": 4,
+    "fields": {
+      "type": "Factory",
+      "level": "0",
+      "name": "ОАО «Витязь»",
+      "email": "tv@vityas.com",
+      "country": "Белоруссия",
+      "city": "Витебск",
+      "street": "Петруся Бровки",
+      "house_number": "13А",
+      "supplier": null,
+      "debt_supplier": "0.00",
+      "date_create": "2024-06-02T07:22:35.688Z"
+    }
+  },
+  {
+    "model": "network.networkobject",
+    "pk": 5,
+    "fields": {
+      "type": "Individual entrepreneur",
+      "level": "2",
+      "name": "Ромашка",
+      "email": "test@sky.pro",
+      "country": "Россия",
+      "city": "Ярославль",
+      "street": "Гоголя",
+      "house_number": "2",
+      "supplier": 1,
+      "debt_supplier": "0.00",
+      "date_create": "2024-06-02T07:24:19.061Z"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 1,
+    "fields": {
+      "name": "LED-телевизор Aceline",
+      "model": "24HEN1",
+      "release_date": "2024-06-02",
+      "networkObject": 1
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 2,
+    "fields": {
+      "name": "Телевизор Xiaomi Mi TV Q2 55 GLOBAL",
+      "model": "Mi TV Q2 55 GLOBAL",
+      "release_date": "2024-06-12",
+      "networkObject": 5
+    }
+  }
+]
